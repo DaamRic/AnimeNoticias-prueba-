@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif; 
+    min-height: 100vh;
+}
+
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.content{
+  width: 18%;
+    
+}
+.post-img-1{
+    background: url(../img/4RUQ2R5WJZASLHCCBPEF23SPRE.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-2{
+    background: url(../img/black-clover_98.webp);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-3{
+    background: url(../img/The-Rising-of-the-Shield-Hero-Rapthalia-Naofumi.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-4{
+    background: url(../img/a-returners-magic-should-be-special-destacada-e1680744838734-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-5{
+    background: url(../img/one-piece-film-red-400x240.jpeg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-6{
+    background: url(../img/konosuba-fantastic-days.webp);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-7{
+    background: url(../img/dragon-quest-limos-1-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-8{
+    background: url(../img/Spy-x-Family-destacado-vertical.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-9{
+    background: url(../img/madaraki-header-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-10{
+    background: url(../img/tearmoon-empire-1-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post{
+    box-shadow: 0 1px 6px 1px #ffffffc7  ;
+    overflow: hidden;
+    transition: .2s;
+
+}
+
+.post:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15) ;
+}
+
+.post-header{
+    overflow: hidden;
+    cursor: pointer;
+}
+.post:hover .post-img1,
+.post:hover .post-img2,
+.post:hover .post-img3,
+.post:hover .post-img4,
+.post:hover .post-img5,
+.post:hover .post-img6,
+.post:hover .post-img7,
+.post:hover .post-img8,
+.post:hover .post-img9,
+.post:hover .post-img10{
+    transform: scale(1.1);
+}
+.post-body{
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+}
+.post-body span{
+    display: inline-block;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-body h2{
+    margin-bottom: 15px;
+}
+
+.post-body p{
+    margin-bottom: 10px;
+}
+
+.post-body .post-link{
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgba(13, 13, 227, 0.768);
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px ;
+    transition: .2s;
+}
+
+.post-body .post-link:hover{
+    background: rgba(13, 13, 247, 0.801);
+    box-shadow: 1px 1px 1px 1px ;
+    transform: translateY(-2px);
+}
+
+
+.header{
+margin: 0;
+border: 4px white solid;
+}
+
+.narutito{
+    width: 30px;
+}
+
+
+ul{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+li{
+    display: inline;
+    margin: 0 50px;
+}
+
+ul a:hover{
+    cursor: pointer;
+    color:  burlywood;
+    box-shadow: 0px 0px 15px 15px rgba(230, 175, 24, 0.764);
+}
+
+nav{
+    text-decoration: none;
+    background-color: rgba(13, 13, 227, 0.768);
+    text-align: center;
+    border: 2px solid antiquewhite;
+    
+}
+
+.titulo{
+    font-size: 70px;
+    text-align: center;
+    color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.anav{
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+.borders{
+    border: 4px white solid;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.titulomain{
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.titulomains{
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+#icon{
+width: 40px;
+height: 40px;
+}
+
+.coder{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: antiquewhite;
+   padding: 5px;
+   font-size: 15px;
+   margin-top: 5px;
+
+}
+
+.mains{
+ text-align: center;
+ border: solid 4px antiquewhite;
+ border-top: 1px white solid;
+    border-bottom: 1px white solid;
+ background-color: black;
+
+}
+
+footer{
+    border: 4px white solid;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+.titulotop10{
+    color: burlywood;
+    margin-top: 50px;
+}
+
+/* Responsiv */
+@media (min-width: 1000px) and (max-width: 1200px){
+li{
+    display: inline;
+    margin: 20px;
+}
+.content{
+    width: 25%;
+    margin: 30px;
+}
+}
+@media (min-width: 645px) and (max-width:1000px){
+    li{
+        display: inline;
+        margin: 20px;
+    }
+    .content{
+        width: 38%;
+        margin: 25px;
+    }
+}
+@media (min-width: 400px) and (max-width: 645px){
+   li{
+    margin: 5px;
+    font-size: 20px;
+   }
+   .titulo{
+    font-size: 50px;
+   }
+   .content{
+    width: 90%;
+   }
+   .videostop10{
+    width: 80%;
+   }
+   }
+@media (min-width: 255px) and (max-width: 400px){
+    li{
+        display: block;
+     margin: 3px;
+     font-size: 20px;
+    }
+    .titulo{
+     font-size: 30px;
+    }
+    .content{
+     width: 90%;
+    }
+ .titulomains{
+    font-size: 30px;
+ }
+ }
+ @media (min-width: 10px) and (max-width: 255px){
+    li{
+        display: block;
+     margin: 3px;
+     font-size: 15px;
+    }
+    .titulo{
+     font-size: 15px;
+    }
+    .content{
+     width: 90%;
+     height: 50%;
+    }
+ .titulomains{
+    font-size: 15px;
+ }
+ }
