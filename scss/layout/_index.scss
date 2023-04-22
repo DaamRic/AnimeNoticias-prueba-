@@ -1,0 +1,204 @@
+
+.mains{
+    text-align: center;
+    border: solid 4px antiquewhite;
+    border-top: 1px white solid;
+       border-bottom: 1px white solid;
+    background-color: black;
+   }
+
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.content{
+  width: 18%;   
+}
+
+.borders{
+    border: 4px white solid;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.titulomains{
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+   padding: 5px;
+   font-size: 15px;
+   margin-top: 5px;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+// IMAGENES
+
+.post-img-1{
+    background: url(/img/Amagami-san-Chi-no-Enmusubi-destacado-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-2{
+    background: url(/img/DekiruNeko01-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-3{
+    background: url(/img/PsychoPassProvidence001-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-4{
+    background: url(/img/Vanitas-no-Shuki-destacado-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+    
+}
+.post-img-5{
+    background: url(/img/maison-ikkoku-destacado-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-6{
+    background: url(/img/GSC90160644_4-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-7{
+    background: url(/img/digimon-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-8{
+    background: url(/img/oshi-no-ko-manga-destacado-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-9{
+    background: url(/img/zagetsu.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-10{
+    background: url(/img/naruto-shippuden-figurine-naruto-400x240.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post{
+    box-shadow: 0 1px 6px 1px #ffffffc7  ;
+    overflow: hidden;
+    transition: .2s;
+
+    &:hover{
+        transform: translateY(-4px);
+        box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15) ;
+    }
+
+}
+
+.post-header{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.post:hover .post-img1,
+.post:hover .post-img2,
+.post:hover .post-img3,
+.post:hover .post-img4,
+.post:hover .post-img5,
+.post:hover .post-img6,
+.post:hover .post-img7,
+.post:hover .post-img8,
+.post:hover .post-img9,
+.post:hover .post-img10{
+    transform: scale(1.1);
+}
+
+.post-body{
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+
+    span{
+        display: inline-block;
+        color: #999;
+        margin-bottom: 10px;
+    }
+
+    h2{
+        margin-bottom: 15px;
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
+
+}
+
+.post-body .post-link{
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgba(13, 13, 227, 0.768);
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px ;
+    transition: .2s;
+
+    &:hover{
+        background: rgba(13, 13, 247, 0.801);
+        box-shadow: 1px 1px 1px 1px ;
+        transform: translateY(-2px);
+    }
+}

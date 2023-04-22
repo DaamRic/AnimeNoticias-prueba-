@@ -1,0 +1,14 @@
+//IMPORTS BASE
+@import "base/_reset.scss";
+
+
+//IMPORTS COMPONENTES
+@import "components/footer";
+@import "components/navbar";
+
+//IMPORTS LAYOUT
+@import "layout/index";
+@import "layout/top10";
+@import "layout/contacto";
+@import "layout/acercade";
+@import "layout/mediaqueries";
