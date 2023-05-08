@@ -5,6 +5,7 @@
     border-top: 1px white solid;
        border-bottom: 1px white solid;
     background-color: black;
+    
    }
 
 .post-list{
@@ -16,7 +17,7 @@
 }
 
 .content{
-  width: 18%;   
+  width: 18%;
 }
 
 .borders{
@@ -34,7 +35,8 @@
 }
 
 h2{
-    color: antiquewhite;
+    color: burlywood;
+    text-decoration: underline;
 }
 
 p{
@@ -62,10 +64,12 @@ h3{
     box-shadow: 0 1px 6px 1px #ffffffc7  ;
     overflow: hidden;
     transition: .2s;
+    max-height: 100%;
+    min-height: 100%;
 
     &:hover{
         transform: translateY(-4px);
-        box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15) ;
+        box-shadow: 0 1px 14px 2px burlywood;
     }
 
 }
@@ -83,6 +87,7 @@ h3{
     padding: 1px;
     text-align: center;
     width: 100%;
+    
 
     span{
         display: inline-block;
@@ -113,6 +118,10 @@ h3{
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px ;
     transition: .2s;
+    margin-top: 50px;
+    width: 70%;
+    height: 70%;
+    
 
     &:hover{
         background: rgba(13, 13, 247, 0.801);

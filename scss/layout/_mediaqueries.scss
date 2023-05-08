@@ -1,31 +1,59 @@
-@media (min-width: 1000px) and (max-width: 1400px){ 
+@media (min-width: 1200px) and (max-width: 2000px){ 
 
     li{
         display: inline;
-        margin: 20px;
+        padding: 80px;
 }
 
 .content{
-    width: 25%;
-    margin: 30px;
-}
+    width: 30%;
+    margin:5px; 
 }
 
-@media (min-width: 645px) and (max-width:1100px){
+}
+
+
+@media (min-width: 906px) and (max-width:1350px){
    
     li{
         display: inline;
         font-size: 23px;
-        margin: 20px;
+        padding: 20px;
         
     }
     .content{
-        width: 38%;
-        margin: 25px;
+        width: 40%;
+        margin: 30px;
     }
 }
 
-@media (min-width: 400px) and (max-width: 645px){
+@media (min-width: 650px) and (max-width: 906px){ 
+    .anav{
+    padding: 10px 20px;
+    font-size: 15px;
+    }
+
+    li{
+        display: inline;
+        font-size: 30px;
+    }
+    .content{
+        width: 38%;
+        margin: 28px;
+    }
+    .container{
+        li{
+            margin: 10px;
+
+
+     .iconoscontacto{
+      padding: 30px;
+      }
+     }
+    }
+}
+
+@media (min-width: 400px) and (max-width: 650px){
    
     .anav{
         display: flex;
@@ -35,38 +63,80 @@
 
     ul{
     margin: 0px;
+    padding: 10px;
     }
 
-   .titulo{
+   .titulotop{
     font-size: 50px;
    }
-   .content{
-    width: 90%;
+   .titulobot{
+    font-size: 50px;
    }
+
+   .content{
+    width:  100%;
+    height: 100%;
+   }
+   .post-list{
+    margin: 0;
+    margin-bottom: 20px;
+}
 
    .videostop10{
     width: 80%;
+    
    }
 
-   }
+   .parrafoacercade{
+    font-size: 20px;
+    top: 40%;
+}
+   .container{
+    
+       li{
+        margin: 5px;
+
+         .iconoscontacto{
+       padding: 30px;
+          }
+        }
+    } 
+  
+  }
+
+  #icon {
+    width: 20px;
+    height: 20px;
+}
+
 
 @media (min-width: 255px) and (max-width: 400px){
-    
+    nav{
+        height: 100%;
+        width: 100%;
+    }
     .anav{
         display: flex;
         flex-direction: column;
-        font-size: 25px;  
+        font-size: 20px;  
      }
 
      ul{
       margin: 0px;
+      padding: 10px;
     }
-    .titulo{
+
+    .titulotop{
      font-size: 30px;
     }
 
+    .titulobot{
+        font-size: 30px;
+       }
+
     .content{
-     width: 90%;
+     width: 100%;
+     height: 100%;
     }
 
  .titulomains{
@@ -75,8 +145,45 @@
 
  .videostop10{
     width: 80%;
+    height: 100%;
    }
 
+.post-list{
+    margin: 0;
+}
+
+.parraffo10{
+    margin: 0;
+}
+
+.narutito{
+    width: 15px;
+}
+
+.contacto{
+    display: block;
+}
+
+.container{
+    
+   .iconoscontacto{
+    
+         li{
+      
+             .acontacto{
+            width: 48px;
+            height: 48px;
+            line-height: 100%;
+
+             }
+         }
+    }
+}
+
+.parrafoacercade{
+    font-size: 15px;
+    top: 30%;
+}
 
  }
 
@@ -84,27 +191,78 @@
     
   .anav{
         display: flex;
-        flex-direction: column;
-        font-size: 15px;  
+        flex-direction: column center;
+        font-size: 10px; 
    }
        ul{
         margin: 0px;
+        padding: 10px;
         }
-    .titulo{
-     font-size: 15px;
+
+    .titulotop{
+     font-size: 100%;
     }
+
+    .titulobot{
+        font-size: 100%;
+       }
+
     .content{
-     width: 90%;
-     height: 50%;
+     width: 100%;
+     height: 100%;
     }
+
+.post-list{
+    margin: 0;
+    margin-bottom: 10px;
+}
  .titulomains{
     font-size: 15px;
  }
 
  .videostop10{
-    width: 80%;
+    width: 100%;
+    height: 100%;
    }
+
    h2{
     font-size: 12px;
    }
- }
+
+   .parraffo10{
+    margin: 0;
+   }
+   
+   .narutito{
+    width: 10px;
+   }
+   .contacto{
+    display: block;
+}
+
+.parrafoacercade{
+    font-size: 8px;
+    top: 5%;
+} 
+
+#icon {
+    width: 10px;
+    height: 10px;
+}
+
+.container{
+    
+    .iconoscontacto{
+     
+         li{
+       
+            .acontacto{
+                width: 20px;
+                height: 20px;
+                line-height: 100%;
+ 
+            }
+        }
+    }
+}
+}
